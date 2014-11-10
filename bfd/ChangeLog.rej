@@ -1,0 +1,12 @@
+--- bfd/ChangeLog
++++ bfd/ChangeLog
+@@ -1,3 +1,9 @@
++2014-03-25  H.J. Lu  &lt;hongjiu.lu@intel.com&gt;
++
++	PR ld/16746
++	* linker.c (_bfd_generic_link_add_one_symbol): Don't issue a
++	warning for reference in LTO IR which may be removed by LTO later.
++
+ 2014-03-25  Will Newton  &lt;will.newton@linaro.org&gt;
+ 
+ 	 * elfnn-aarch64.c (elfNN_aarch64_finish_dynamic_sections):

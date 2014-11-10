@@ -1,0 +1,15 @@
+--- ld/testsuite/ChangeLog
++++ ld/testsuite/ChangeLog
+@@ -1,3 +1,12 @@
++2014-03-25  H.J. Lu  &lt;hongjiu.lu@intel.com&gt;
++
++	PR ld/16746
++	* ld-plugin/lto.exp: Add 4 tests for PR ld/16746.
++	* ld-plugin/pr16746a.c: New file.
++	* ld-plugin/pr16746b.c: Likewise.
++	* ld-plugin/pr16746c.c: Likewise.
++	* ld-plugin/pr16746d.c: Likewise.
++
+ 2014-03-25  Will Newton  &lt;will.newton@linaro.org&gt;
+ 
+ 	 * ld-aarch64/aarch64-elf.exp: Add relasz dump test.
